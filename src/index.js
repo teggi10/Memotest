@@ -64,14 +64,7 @@ function manejarClickCuadro($cuadroActual) {
 function cuadrosSonIguales($cuadro1, $cuadro2) {
   return $cuadro1.className === $cuadro2.className;
 
-  /*
-  //Este patrón siempre se puede simplificar:
-  if($cuadro1.className === $cuadro2.className){
-    return true;
-  }else{
-    return false;
-  }
-  */
+
 }
 
 function mostrarCuadro($cuadro) {
